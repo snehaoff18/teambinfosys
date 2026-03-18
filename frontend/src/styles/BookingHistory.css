@@ -1,0 +1,57 @@
+.history-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f2fe, #bfdbfe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* ⭐ Light glass card */
+.history-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 35px;
+  border-radius: 18px;
+  width: 720px;
+  color: #1e3a8a;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Title */
+.history-card h2 {
+  color: #1e40af;
+}
+
+/* ⭐ TABLE */
+.history-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  color: #1e3a8a;
+}
+
+/* Cells */
+.history-table th,
+.history-table td {
+  padding: 14px;
+  border-bottom: 1px solid #c7d2fe;
+  text-align: center;
+}
+
+/* Header */
+.history-table th {
+  background: #93c5fd;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+/* Uniform rows */
+.history-table tbody tr {
+  background: transparent;
+}
+
+/* Subtle hover */
+.history-table tbody tr:hover {
+  background: #e0f2fe;
+}

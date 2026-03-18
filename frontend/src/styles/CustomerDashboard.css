@@ -1,0 +1,73 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1b4b, #312e81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ⭐ Bigger Card */
+.dashboard-card {
+  background: white;
+  padding: 50px 40px;
+  border-radius: 20px;
+  width: 480px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+/* Title */
+.dashboard-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e1b4b;
+  margin-bottom: 15px;
+}
+
+/* Subtitle */
+.dashboard-subtitle {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Buttons container */
+.dashboard-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Shared button style */
+.dashboard-btn {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.25s ease;
+  font-weight: 600;
+}
+
+/* Book Ride button */
+.book-btn {
+  background: #4f46e5;
+}
+
+.book-btn:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+/* History button */
+.history-btn {
+  background: #6366f1;
+}
+
+.history-btn:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}

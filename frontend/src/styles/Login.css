@@ -1,0 +1,108 @@
+/* Center the entire page */
+body {
+  margin: 0;
+}
+
+/* Full page wrapper */
+.page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #4e73df, #c8361c);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Welcome at top */
+.welcome-heading {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4e73df, #c8361c);
+}
+.login-container->h1{
+  align-items: start;
+}
+/* Login box */
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input focus */
+.login-box input:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.4);
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e73df;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.login-box button:hover {
+  background-color: #2e59d9;
+}
+.register-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-section p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.register-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #4e73df;
+  color: #4e73df;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #4e73df;
+  color: white;
+}

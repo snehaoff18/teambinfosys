@@ -1,0 +1,89 @@
+.insights-page {
+  padding: 30px;
+  background: #f4f6f8;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.insights-page h1 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* ===== KPI GRID ===== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.kpi-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.kpi-icon {
+  font-size: 28px;
+}
+
+.kpi-card h3 {
+  margin: 8px 0;
+  color: #555;
+}
+
+.kpi-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+/* ===== BAR CHART ===== */
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 160px;
+  margin-top: 15px;
+}
+
+.bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.bar {
+  width: 100%;
+  background: linear-gradient(#5b6cff, #7a5cff);
+  border-radius: 8px 8px 0 0;
+}
+
+.bar-wrapper span {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+/* ===== HOTSPOTS ===== */
+.hotspot-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hotspot-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}

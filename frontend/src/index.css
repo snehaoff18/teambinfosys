@@ -1,0 +1,35 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Defaults */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Full Screen Layout Fix */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Remove Vite default centering */
+body {
+  min-width: 320px;
+}
+
+/* Optional: Clean anchor styling */
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
