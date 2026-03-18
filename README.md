@@ -1,12 +1,12 @@
-#NeuroFleetX - AI-Driven Urban Mobility Optimization System
+# NeuroFleetX - AI-Driven Urban Mobility Optimization System
 
-Project Overview:
+## Project Overview:
 NeuroFleetX is an intelligent platform designed to optimize urban mobility and fleet operations using AI, IoT simulation, and real-time analytics.
 
-Objective:
+## Objective:
 To minimize average travel time per trip and improve fleet efficiency using AI-based routing and predictive systems.
 
-Core Modules:
+## Core Modules:
 1. Authentication & Role Management
 2. Fleet Inventory & Vehicle Telemetry
 3. AI Route Optimization
@@ -14,20 +14,20 @@ Core Modules:
 5. Customer Booking & Recommendations
 6. Admin Dashboard & Insights
 
-Tech Stack:
+## Tech Stack:
 Frontend: React / Angular
 Backend: Java Spring Boot
-Database: MySQL
+Database: MySQL/Postgres
 AI: Python (Flask)
 Maps: Google Maps API / Leaflet
 
-Features:
+## Features:
 - Real-time tracking
 - AI route optimization
 - Predictive maintenance
 - Smart booking system
 
-Team Members:
+## Team Members:
 - S Sneha
 - Kusum Jha
 - Saniya Sheldarkar
@@ -35,7 +35,7 @@ Team Members:
 - Satyajeet Singh Patel
 - Chandushreebm B M
 
-Future Scope:
+## Future Scope:
 - IoT integration
 - EV optimization
 - Mobile app development
